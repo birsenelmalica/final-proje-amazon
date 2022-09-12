@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/**************HEADER***************/
+header {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border: 1px solid;
+}
+
+img {
+    width: 130px;
+    height: 60px;
+    background-color: white;
+}
+
+.search {
+    display: flex;
+    width: 400px;
+    height: 40px;
+}
+
+.button {
+    width: 300px;
+    height: 45px;
+}
+
+
+.all-icon {
+    width: 50px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.all-icon:hover {
+    background-color: rgb(151, 142, 59);
+}
+
+/**********HEADER-P************/
+.hello {
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+    width: 70px;
+}
+
+p:hover {
+    color: orange;
+}
+
+/************HEADER-BASKET****************/
+.basket {
+    color: white;
+    display: flex;
+}
+
+.basket p {
+    margin-right: 50px;
+}
+
+.basket i {
+    color: white;
+}
+
+.basket i:hover {
+    color: orange;
+}
+
+sub {
+    color: red;
+    font-size: 15px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -55px;
+}
+
+/*************NAVBAR****************/
+nav {
+
+    margin-left: 20px;
+    width: 100%;
+    height: 50px;
+    border: 5px solid rgb(48, 45, 45);
+    background-color: rgb(48, 45, 45);
+    border-bottom: 2px solid orange;
+}
+
+.menu-box {
+    width: 100px;
+    height: 35px;
+    border: 1px solid;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+nav div ul li {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(48, 45, 45);
+}
+
+nav div ul li:hover {
+    background-color: orange;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*************MAIN*******************************/
+main {
+    display: flex;
+}
+
+/************CATEGORIES*****************/
+h4 {
+    font-size: 20px;
+    color: orange;
+}
+
+hr {
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+main div ul li:hover {
+    color: orange;
+}
+
+.categories li div {
+    display: flex;
+}
+
+.menu {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1.5px solid;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    background: blue;
+}
+
+h4 {
+    margin-top: 50px;
+}
+
+.input {
+    width: 120px;
+    height: 40px;
+    border: 2px solid orange;
+}
+
+.price {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.price input:hover {
+    border: 2px solid;
+}
+
+.go {
+    width: 60px;
+    height: 43px;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    font-size: 15px;
+    border: 10px solid orange;
+}
+
+/*************COMPUTER-PRICE****************/
+.computer-first img {
+    width: 350px;
+    height: 350px;
+}
+
+.computer {
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    box-shadow: 0px 0px 3px 1px #000000;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.triple {
+    display: flex;
+    text-align: center;
+}
+
+.computer img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.computer:hover {
+    width: 150px;
+    height: 150px;
+}
+
+/************BASKET-CARD**************/
+h5 {
+    padding-top: 70px;
+    color: black;
+    font-size: 15px;
+}
+
+.star {
+    display: flex;
+    color: orange;
+    margin-top: 15px;
+}
+
+.basket-card p {
+    color: black;
+    font-size: 15px;
+}
+
+.dolar {
+    display: flex;
+    margin: 10px
+}
+
+.hundred {
+    color: orange;
+    text-decoration: line-through;
+    margin-top: 15px;
+}
+
+.seventy {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.shopping-car {
+    width: 150px;
+    height: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.shopping-car:hover {
+    background-color: rgb(133, 115, 82);
+}
+
+/*******************FOOTER**************************/
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(37, 57, 98);
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+}
+
+h6 {
+    color: orange;
+    font-size: 20px;
+}
+
+/**************RESPONSIVE-DISAYN****************/
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hello,
+    .baket,
+    sub {
+        display: none;
+    }
+
+    .menu-box a {
+        display: flex;
+        flex-direction: column;
+        border-left: 5px solid orange;
+    }
+
+    .laptop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 200px;
+        height: 800px;
+    }
+}
